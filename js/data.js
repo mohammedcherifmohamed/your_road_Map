@@ -24,7 +24,9 @@ const ROADMAPS = {
               "بنية المستند، الوسوم الدلالية، النماذج، أساسيات الوصولية، وسوم تحسين محركات البحث.",
             skills: ["Semantic HTML", "Forms", "Accessibility", "Meta tags"],
             resources: [
-              { label: "MDN — HTML Basics", url: "https://developer.mozilla.org/en-US/docs/Learn/HTML" },
+              { label: "Youtube-channel-elzero web school", url: "https://www.youtube.com/watch?v=6QAELgirvjs&list=PLDoPjvoNmBAw_t_XWUFbBX-c9MafPk9ji" },
+              { label: "Youtube-channel-Abdelrahman Gamal", url: "https://www.youtube.com/watch?v=Dv39fDYei9A&list=PLknwEmKsW8OtLRQPTLms79499meY2D6ij" },
+              { label: "W3Schools — HTML Basics", url: "https://www.w3schools.com/html/default.asp" },
               { label: "web.dev — Learn HTML", url: "https://web.dev/learn/html/" },
             ],
           },
@@ -34,6 +36,9 @@ const ROADMAPS = {
               "Box model، Flexbox، Grid، التصميم المتجاوب، وميزات CSS الحديثة.",
             skills: ["Flexbox", "Grid", "Responsive design", "Transitions"],
             resources: [
+              { label: "Youtube-channel-elzero web school", url: "https://www.youtube.com/watch?v=X1ulCwyhCVM&list=PLDoPjvoNmBAzjsz06gkzlSrlev53MGIKe" },
+              { label: "Youtube-channel-Abdelrahman Gamal", url: "https://www.youtube.com/watch?v=_QO55W7KPmI&list=PLknwEmKsW8Os7rKViMCL8x6irVJT7McSS" },
+              { label: "W3Schools — CSS Basics", url: "https://www.w3schools.com/css/default.asp" },
               { label: "MDN — CSS", url: "https://developer.mozilla.org/en-US/docs/Learn/CSS" },
               { label: "CSS Tricks — Flexbox Guide", url: "https://css-tricks.com/snippets/css/a-guide-to-flexbox/" },
             ],
@@ -51,8 +56,10 @@ const ROADMAPS = {
               "المتغيرات، الأنواع، الدوال، النطاق، الإغلاقات، DOM، والأحداث.",
             skills: ["ES6+", "DOM", "Events", "Closures", "Promises"],
             resources: [
-              { label: "javascript.info", url: "https://javascript.info/" },
-              { label: "MDN — JavaScript Guide", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" },
+              { label: "W3Schools — JavaScript Basics", url: "https://www.w3schools.com/js/default.asp" },
+              { label: "Youtube-channel-Abdelrahman Gamal", url: "https://www.youtube.com/watch?v=PWuTLTFMtYw&list=PLknwEmKsW8OuTqUDaFRBiAViDZ5uI3VcE" },
+              { label: "Youtube-channel-elzero web school", url: "https://www.youtube.com/watch?v=GM6dQBmc-Xg&list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv" },
+              { label: "Youtube-channel-أكاديمية ترميز", url: "https://www.youtube.com/watch?v=TbHeHAyAV7Q&list=PLYyqC4bNbCIeLEjcSPO61bsGPKEvYceb0" },
             ],
           },
           {
@@ -61,13 +68,13 @@ const ROADMAPS = {
               "جلب البيانات، العمل مع JSON، التعامل مع Promises و Async/Await، واستهلاك REST APIs.",
             skills: ["fetch", "async/await", "REST", "JSON"],
             resources: [
-              { label: "MDN — Fetch API", url: "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API" },
+              { label: "elzero web school — Fetch API", url: "https://www.youtube.com/watch?v=GM6dQBmc-Xg&list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv" },
             ],
           },
         ],
       },
       {
-        title: "أطر العمل الأمامية",
+        title: "أطر العمل Front-end",
         period: "الشهر 4–5",
         desc: "ابنِ واجهات مستخدم تفاعلية قائمة على المكونات.",
         nodes: [
@@ -78,21 +85,22 @@ const ROADMAPS = {
             skills: ["React", "Hooks", "State", "Routing"],
             resources: [
               { label: "React Docs", url: "https://react.dev/learn" },
+              { label: "أكاديمية ترميز", url: "https://www.youtube.com/watch?v=ihRRf3EjTV8&list=PLYyqC4bNbCIdSZ-JayMLl4WO2Cr995vyS" },
             ],
           },
           {
             title: "الأدوات و البناء",
             detail:
               "مديري الحزم، أدوات البناء، وأدوات التطوير الحديثة.",
-            skills: ["npm/pnpm", "Vite", "Git", "ESLint"],
+            skills: [ "Git", "Github"],
             resources: [
-              { label: "Vite Guide", url: "https://vitejs.dev/guide/" },
+              { label: "Yehia Tech-Youtube channel", url: "https://www.youtube.com/watch?v=N7qWNQxFq90&t=418s&pp=ygUTZ2l0IGNvbW1hbmRzINi02LHYrQ%3D%3D" },
             ],
           },
         ],
       },
       {
-        title: "الخلفية و Full-Stack",
+        title: "   Backend",
         period: "الشهر 6–9",
         desc: "ابنِ خوادم، صمم APIs، واتصل بقواعد البيانات.",
         nodes: [
@@ -103,15 +111,20 @@ const ROADMAPS = {
             skills: ["Node.js", "Express", "Auth", "REST"],
             resources: [
               { label: "Node.js Docs", url: "https://nodejs.org/en/learn" },
+              { label: "أكاديمية ترميز", url: "https://www.youtube.com/watch?v=ihRRf3EjTV8&list=PLYyqC4bNbCIdSZ-JayMLl4WO2Cr995vyS" },
+              { label: "MERN-STACK-أكاديمية ترميز", url: "https://www.youtube.com/watch?v=LG7ff9TVWjM&t=9449s" },
+              { label: "MERN-STACK-freeCodeCamp.org", url: "https://www.youtube.com/watch?v=Oe421EPjeBE&t=14615s" },
             ],
           },
           {
             title: "قواعد البيانات",
             detail:
               "نمذجة البيانات، كتابة الاستعلامات، ودمج SQL و NoSQL.",
-            skills: ["PostgreSQL", "SQL", "ORMs", "Schema design"],
+            skills: ["MONGO DB", "SQL", "ORMs" ,"ODMs"],
             resources: [
-              { label: "PostgreSQL Tutorial", url: "https://www.postgresqltutorial.com/" },
+              { label: "MYSQL-Wael abo hamza-youtube channel", url: "https://www.youtube.com/watch?v=vfUMzsUqqb0&list=PL93xoMrxRJIuicqcd1UpFUYMfWKGp7JmI" },
+      { label: "MONGO-DB-أكاديمية ترميز", url: "youtube.com/watch?v=LG7ff9TVWjM&t=326s&pp=ygULbWVybiDYtNix2K0%3D" },
+      { label: "MONGO-DB-Bro Code", url: "https://www.youtube.com/watch?v=c2M-rlkkT5o" },
             ],
           },
         ],
@@ -125,7 +138,7 @@ const ROADMAPS = {
     resources: [
       { label: "MDN Web Docs", url: "https://developer.mozilla.org/" },
       { label: "freeCodeCamp", url: "https://www.freecodecamp.org/" },
-      { label: "The Odin Project", url: "https://www.theodinproject.com/" },
+      { label: "The Odin Project", url: "https://www.youtube.com/watch?v=vfUMzsUqqb0&list=PL93xoMrxRJIuicqcd1UpFUYMfWKGp7JmI" },
       { label: "web.dev", url: "https://web.dev/" },
     ],
   },
