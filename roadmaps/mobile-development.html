@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="bg-slate-50 scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>خريطة تطوير التطبيقات — CareerPaths</title>
+  <meta name="description" content="خريطة تعلم كاملة لتطوير تطبيقات الجوال: مقدمة، جدول زمني، مواضيع قابلة للتوسع، مشاريع مقترحة، ومصادر منتقاة." />
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;600;700;800&family=Tajawal:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root { --font-sans: 'Tajawal', system-ui, sans-serif; --font-display: 'Cairo', system-ui, sans-serif; }
+    body { font-family: var(--font-sans); }
+    h1, h2, h3, .font-display { font-family: var(--font-display); }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+    .fade-up { animation: fadeUp .5s ease both; }
+    .node-panel { display: grid; grid-template-rows: 0fr; transition: grid-template-rows .3s ease; }
+    .node-panel.open { grid-template-rows: 1fr; }
+    .node-panel > div { overflow: hidden; }
+  </style>
+</head>
+<body class="text-slate-800 antialiased">
+  <header class="sticky top-0 z-40 border-b border-slate-200/70 bg-slate-50/80 backdrop-blur">
+    <div class="mx-auto flex max-w-5xl items-center justify-between px-4 py-4 sm:px-6">
+      <a href="/index.html" class="flex items-center gap-2">
+        <span class="flex h-9 w-9 items-center justify-center rounded-xl bg-slate-900 text-white" id="logo-icon"></span>
+        <span class="font-display text-lg font-extrabold tracking-tight text-slate-900">CareerPaths</span>
+      </a>
+      <a href="/index.html" class="inline-flex items-center gap-1.5 rounded-full border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition hover:bg-slate-100">
+        <span id="back-top-icon"></span> جميع الخرائط
+      </a>
+    </div>
+  </header>
+
+  <main id="content"></main>
+
+  <footer class="border-t border-slate-200 bg-slate-50">
+    <div class="mx-auto flex max-w-5xl flex-col items-center justify-between gap-4 px-4 py-8 text-sm text-slate-500 sm:flex-row sm:px-6">
+      <a href="/index.html" class="flex items-center gap-2">
+        <span class="flex h-7 w-7 items-center justify-center rounded-lg bg-slate-900 text-white" id="footer-icon"></span>
+        <span class="font-display font-bold text-slate-700">CareerPaths</span>
+      </a>
+      <p>واصل المسير — كل خبير كان يومًا مبتدئًا.</p>
+    </div>
+  </footer>
+
+  <script>window.ROADMAP_SLUG = "mobile-development";</script>
+  <script src="../js/data.js"></script>
+  <script src="../js/icons.js"></script>
+  <script src="../js/roadmap.js"></script>
+</body>
+</html>
