@@ -188,7 +188,7 @@
           const idx = ROADMAP_ORDER.indexOf(slug);
           const nextSlug = ROADMAP_ORDER[(idx + 1) % ROADMAP_ORDER.length];
           const next = ROADMAPS[nextSlug];
-          return `<a href="/roadmaps/${nextSlug}.html" class="inline-flex items-center gap-2 rounded-full ${c.btn} px-5 py-2.5 text-sm font-semibold text-white transition">
+          return `<a href="roadmaps/${nextSlug}.html" class="inline-flex items-center gap-2 rounded-full ${c.btn} px-5 py-2.5 text-sm font-semibold text-white transition">
             التالي: ${icon("arrow-left", "h-4 w-4")} ${next.title}
           </a>`;
         })()}

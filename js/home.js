@@ -13,7 +13,7 @@
     const c = COLOR_CLASSES[r.color];
     const milestones = r.timeline.length;
     return `
-      <a href="/roadmaps/${slug}.html"
+      <a href="roadmaps/${slug}.html"
          class="group fade-up relative flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white p-6 shadow-sm ring-1 ring-transparent transition hover:-translate-y-1 hover:shadow-xl hover:${c.ring}"
          style="animation-delay:${i * 60}ms">
         <div class="absolute inset-x-0 top-0 -z-0 h-24 bg-gradient-to-b ${c.grad} to-transparent"></div>
